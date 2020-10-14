@@ -27,6 +27,7 @@ namespace WebApplication1
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
+
 #if DEBUG
 			services.AddRazorPages().AddRazorRuntimeCompilation();
 #endif
